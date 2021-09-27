@@ -13,6 +13,9 @@ class Mover {
     b= int (random(0, 255));
   }
   void show () {
+    strokeWeight (3);
+    stroke(0);
+    fill (r, g, b);
     circle (x, y, 10);
   }
 
